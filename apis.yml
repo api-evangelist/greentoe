@@ -1,8 +1,25 @@
 aid: greentoe
 name: Greentoe
-description: Greentoe is a company surfaced as a portfolio company of 500-global, y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Greentoe is a name-your-price e-commerce marketplace where shoppers make an offer on
+  brand-new electronics, cameras, TVs and home theater, appliances, baby gear, watches, and optics,
+  and manufacturer-authorized retailers compete to fulfill the order at the buyer's price. Built to
+  bring the negotiation model of big-ticket purchases online, Greentoe reports more than $100M saved
+  by its customers, backs every order with manufacturer warranties and a 30-day return policy, and is
+  backed by 500 Global and Y Combinator. Greentoe operates as a consumer-facing web application and
+  does not currently publish a public developer API; this profile captures its public web and security
+  surface for the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d3mv25xx38w2jn.cloudfront.net/greentoe_profile_big_1200x630.jpg
 url: https://raw.githubusercontent.com/api-evangelist/greentoe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- E-commerce
+- Retail
+- Marketplace
+- Consumer
+- Electronics
+- Price Negotiation
+- Shopping
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/greentoe-domain-security.yml
 - type: Website
   url: https://greentoe.com
+- type: Support
+  url: https://www.greentoe.com/faq
+- type: TermsOfService
+  url: https://www.greentoe.com/terms
+- type: PrivacyPolicy
+  url: https://www.greentoe.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
