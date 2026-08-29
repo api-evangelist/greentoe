@@ -8,6 +8,17 @@ description: Greentoe is a name-your-price e-commerce marketplace where shoppers
   backed by 500 Global and Y Combinator. Greentoe operates as a consumer-facing web application and
   does not currently publish a public developer API; this profile captures its public web and security
   surface for the API Evangelist network.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
