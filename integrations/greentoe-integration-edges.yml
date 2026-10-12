@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/greentoe/integrations
+- https://n8n.io/integrations/greentoe/
+- https://composio.dev/toolkits/greentoe
+- https://monid.ai/tools/greentoe
+checked:
+- https://composio.dev/toolkits/greentoe
+- https://monid.ai/tools/greentoe
+- https://n8n.io/integrations/greentoe/
+- https://zapier.com/apps/greentoe/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
